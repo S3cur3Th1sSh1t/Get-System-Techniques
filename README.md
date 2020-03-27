@@ -1,3 +1,8 @@
-# Get-ScheduledTaskSystem
+# Get-System-Techniques
 
-If you got Administrator rights you also have SYSTEM rights. Just one way to get a SYSTEM Shell over Scheduled Tasks.
+## Scheduled Tasks
+
+Create a Scheduled Task running as SYSTEM and execute a command, for example a BIND Shell and connect to it.
+
+## Other
+I will add other scripts with other techniques in the future.
