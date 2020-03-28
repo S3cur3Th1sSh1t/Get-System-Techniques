@@ -23,5 +23,9 @@ Get a SYSTEM Shell using psexec:
 `PsExec.exe -accepteula -s -i cmd.exe`
 I used Invoke-ReflectivePEInjection.ps1 to execute PsExec in memory with theese parameters. (Currently buggy, have to take a look)
 
+## Uso DLL
+
+Drop WindowsCoreDeviceInfo.dll bind Shell in System32 Folder and load it afterwards using UsoClient.exe
+
 ## Other
 I will add other scripts with other techniques in the future.
