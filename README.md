@@ -19,7 +19,8 @@ Get a SYSTEM Shell over Named Pipe Impersonation
 ## PSExec
 
 Get a SYSTEM Shell using psexec:
-PsExec.exe -accepteula -s -i cmd.exe
+
+`PsExec.exe -accepteula -s -i cmd.exe`
 I used Invoke-ReflectivePEInjection.ps1 to execute PsExec in memory with theese parameters. (Currently buggy, have to take a look)
 
 ## Other
