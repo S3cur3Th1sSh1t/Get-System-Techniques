@@ -10,6 +10,7 @@ Get a SYSTEM shell using CreateProcess PROC_THREAD_ATTRIBUTE_PARENT_PROCESS attr
 
 ## Token-Manipulation
 `Invoke-Token.ps1` - Slightly modified Invoke-TokenManipulation from Powersploit
+
 `Get-WinlogonTokenSystem.ps1` - Token Manipulation for WinLogon Process to get a SYSTEM Shell.
 
 ## NamedPipe
