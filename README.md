@@ -9,8 +9,8 @@ Create a Scheduled Task running as SYSTEM and execute a command, for example a B
 Get a SYSTEM shell using CreateProcess PROC_THREAD_ATTRIBUTE_PARENT_PROCESS attribute
 
 ## Token-Manipulation
-
-Get a SYSTEM shell using Token Manipulation
+`Invoke-Token.ps1` - Slightly modified Invoke-TokenManipulation from Powersploit
+`Get-WinlogonTokenSystem.ps1` - Token Manipulation for WinLogon Process to get a SYSTEM Shell.
 
 ## NamedPipe
 
