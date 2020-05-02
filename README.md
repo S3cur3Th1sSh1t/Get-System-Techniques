@@ -28,5 +28,9 @@ I used Invoke-ReflectivePEInjection.ps1 to execute PsExec in memory with theese 
 
 Drop WindowsCoreDeviceInfo.dll bind Shell in System32 Folder and load it afterwards using UsoClient.exe
 
+## PrintSpoof
+
+Powershell reflective loading of https://github.com/itm4n/PrintSpoofer
+
 ## Other
 I will add other scripts with other techniques in the future.
