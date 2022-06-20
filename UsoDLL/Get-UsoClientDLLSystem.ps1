@@ -17,7 +17,7 @@ function UsoLoad
         {
             1{Write-Host "Loading DLL with Usoclient StartScan";C:\windows\system32\Usoclient.exe StartScan}
             2{Write-Host "Loading DLL with Usoclient StartDownload";C:\windows\system32\Usoclient.exe StartDownload}
-            3{Write-Host "Loading DLL with Usoclient StartInteractiveScan";C:\windows\system32\Usoclient.exe StartDownload}
+            3{Write-Host "Loading DLL with Usoclient StartInteractiveScan";C:\windows\system32\Usoclient.exe STARTINTERACTIVESCAN}
         }
         try
         {
